@@ -19,5 +19,7 @@ jobs:
         shell: bash
         run: bun install
       - name: Run
+        env:
+          OPEN_WEATHER_API_KEY: ${{ secrets.OPEN_WEATHER_API_KEY }}
         shell: bash
         run: bun run index.ts
