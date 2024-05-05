@@ -1,0 +1,14 @@
+{
+  "name": "weather-pilot",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "openweather-api-node": "^3.1.2"
+  }
+}
